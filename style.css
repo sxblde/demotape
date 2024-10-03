@@ -1,0 +1,68 @@
+
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+    font-family: system-ui;  
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper-main{
+    width: 50px;
+    height: auto;
+    margin: auto;
+  }
+
+.scroll-bg{
+
+    width: 100px;
+    margin: 100% auto;
+    padding: 0px ;
+
+}
+
+.scroll-div{
+    width: 100px;
+
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    boarder-radius: 100px;
+}
+
+
+.scroll-object{
+colour: white;
+padding: 0px;
+
+
+}
+
+
+.hero {
+    padding-bottom: 1em;
+    background-image: url("../portfolio/image/sticker_666.png");
+    background-color: #ff0000;
+    background-repeat: no-repeat;
+    background-position: centre;
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+
+
+    padding-top: 200px;
+    padding_bottom: 200px;
+}
+
+.container {
+   
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
