@@ -1,68 +1,209 @@
-
 body {
     overflow: scroll;
     overflow-x: hidden;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
-    font-family: system-ui;  
+    font-family: system-ui;
 }
+
+
+.text {
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.phone-text {
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: collapse;
+}
+
+
+
+@media only screen and (max-width: 414px){
+.text {
+    visibility: collapse;
+}
+
+.phone-text{
+    visibility: visible;
+}
+}
+
+
 
 ::-webkit-scrollbar {
-    width: 0;
+    width: 0px;
 }
 
-.wrapper-main{
-    width: 50px;
-    height: auto;
-    margin: auto;
-  }
+.hero-top{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+    background-image: url("../portfolio/image/sticker_enter_666.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-blend-mode: multiply;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
 
-.scroll-bg{
 
-    width: 100px;
-    margin: 100% auto;
-    padding: 0px ;
-
+    padding-top: 10px;
+    padding-bottom: 1500px;
 }
 
-.scroll-div{
-    width: 100px;
-
-    height: 200px;
-    overflow: hidden;
-    overflow-y: scroll;
-    boarder-radius: 100px;
-}
-
-
-.scroll-object{
-colour: white;
-padding: 0px;
-
-
-}
 
 
 .hero {
+  
+    margin: 0;
+    padding: 0;
     padding-bottom: 1em;
     background-image: url("../portfolio/image/sticker_666.png");
-    background-color: #ff0000;
-    background-repeat: no-repeat;
-    background-position: centre;
-    background-blend-mode: multiply;
     background-size: cover;
-    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-blend-mode: multiply;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
 
 
-    padding-top: 200px;
-    padding_bottom: 200px;
+    padding-top: 500px;
+    padding-bottom: 100px;
 }
 
+.hero-bottom{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+    background-image: url("../portfolio/image/sticker_666.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-blend-mode: multiply;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+
+
+    padding-top: 1100px;
+    padding-bottom: 10px;
+}
+
+
+
 .container {
-   
-    max-width: 960px;
+    max-width: 96px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+
+.wrapper-main {
+    width: 0px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+
+
+.scroll-bg {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    padding: 10px;
+}
+
+
+
+.scroll-div {
+    font-size: 40px;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 1px;
+}
+
+
+.scroll-object {
+color: white;
+padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-main {
+    width: 100%;
+    padding: 0px 0px 0px;
+    background-color:#ff0000;
+}
+
+
+.footer-wrapper-main {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-logo {
+    flex-basis: 1%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100%; 
+}
+
+.footer-main-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0 0;
+}
+
+.footer-main a{
+
+}
+
+.footer-tellurmum a {
+    padding: 10px 20px;
+    margin: 40px 0 60px;
+    border: 2px solid white;
+}
+
+.footer-site-map {
+    flex-basis: 1%;
 }
