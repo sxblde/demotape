@@ -7,34 +7,6 @@ body {
 }
 
 
-.text {
-    padding-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.phone-text {
-    padding-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    visibility: collapse;
-}
-
-
-
-@media only screen and (max-width: 414px){
-.text {
-    visibility: collapse;
-}
-
-.phone-text{
-    visibility: visible;
-}
-}
-
-
 
 ::-webkit-scrollbar {
     width: 0px;
