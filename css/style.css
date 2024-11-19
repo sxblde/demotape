@@ -1,7 +1,7 @@
 body {
     overflow: scroll;
     overflow-x: hidden;
-    height: 150vh;
+    height: 0vh;
     margin: 0;
     font-family: system-ui;
 }
@@ -44,7 +44,7 @@ body {
     margin: 0;
     padding: 0;
     padding-bottom: 1em;
-    background-image:;
+    background-image: url("../portfolio/image/sticker_enter_666.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -55,13 +55,31 @@ body {
     color: rgb(255, 255, 255);
 
 
-    padding-top: 10px;
-    padding-bottom: 1500px;
+    padding-top: 0px;
+    padding-bottom: 750px;
 }
 
 
 
+.hero {
+  
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1em;
+    background-image: url("../portfolio/image/sticker_666.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-blend-mode: multiply;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 
 .container {
@@ -163,7 +181,7 @@ padding: 0px;
 .footer-tellurmum a {
     padding: 10px 20px;
     margin: 40px 0 60px;
-    border: 0px solid white;
+    border: 2px solid white;
 }
 
 .footer-site-map {
