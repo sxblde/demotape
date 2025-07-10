@@ -22,6 +22,18 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.form {
+    color: white;
+    font-size: 15px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 6rem;
+    
+    
+}
 
 
 .wrapper-main {
@@ -49,8 +61,8 @@ body {
 
 .scroll-div {
     font-size: 20px;
-    width: 500px;
-    height: 60px;
+    width: 600px;
+    height: 50px;
     overflow: hidden;
     overflow-y: scroll;
     border-radius: 1px;
@@ -64,4 +76,99 @@ padding: 0px;
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+/* connect form */
+HTML CSSResult Skip Results Iframe
+EDIT ON
+Live
+form {
+  width: 90vw;
+  max-width: 20em;
+}
+​
+button {
+  margin-top: 2rem;
+}
+​
+input {
+  border: 1px solid;
+  padding: 0.3em;
+  width: 100%;
+}
+​
+textarea {
+  width: 100%;
+  min-height: 6em;
+}
+​
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+​
+select {
+  font-size: 16px;
+}
+​
+.postal-code {
+  width: 50%;
+}
+
+
+.footer {
+    margin: 0%;
+    padding: 10%;
+    font-family: system-ui;
+    background-color:#000000;
+}
+
+
+/* dropdown */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.hamburger {
+margin: 1%;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: none;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.menu li {
+  border-bottom: 1px solid #000000;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.menu li a:hover {
+  background-color: #ffffff1b;
 }
