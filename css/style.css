@@ -61,7 +61,7 @@ body {
 
 .scroll-div {
     font-size: 20px;
-    width: 600px;
+    width: 400px;
     height: 50px;
     overflow: hidden;
     overflow-y: scroll;
@@ -150,7 +150,7 @@ margin: 1%;
   position: absolute;
   top: 50px;
   left: 20px;
-  width: 150px;
+  width: 200px;
   border-radius: 5px;
 }
 
