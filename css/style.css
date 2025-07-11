@@ -50,7 +50,7 @@ body {
 .scroll-bg {
     display: flex;
     position: absolute;
-    top: 59%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: auto;
